@@ -6,7 +6,7 @@ router.get('/checkstatus', (req, res, next) => {
     res.status(200).json({
         status: 'success',
         message: 'api ok add more info there',
-	time: $timestamp
+	time: timestamp
     })
 })
 
