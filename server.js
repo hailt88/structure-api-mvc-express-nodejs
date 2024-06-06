@@ -3,9 +3,9 @@ const app = require('./src/app')
 
 
 
-const {PORT} = process.env.PORT;
-
-//const PORT=3051;
+//const {PORT} = process.env;
+//add this line for  testing
+const PORT=3051;
 
 
 const server = app.listen( PORT, () => {
